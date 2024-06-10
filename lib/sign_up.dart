@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'home_page.dart';
+import 'sign_in.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -73,6 +74,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   Text('Already have an account?'),
                   TextButton(
                     onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SignInScreen()),
+                      );
                     },
                     child: Text('Sign in Here'),
                   ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'sign_up.dart';
+import 'sign_in.dart';
 
 void main() {
   runApp(KlambiApp());
@@ -92,7 +93,10 @@ class HomePage extends StatelessWidget {
               SizedBox(width: 20),
               GestureDetector(
                 onTap: () {
-
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SignInScreen()),
+                  );
                 },
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -109,7 +113,6 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-
               ],
             ),
           ],
