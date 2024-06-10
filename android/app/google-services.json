@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605631607291",
+    "project_id": "klambi-dd4b0",
+    "storage_bucket": "klambi-dd4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605631607291:android:c9034fd8c333fbb3079b5e",
+        "android_client_info": {
+          "package_name": "com.example.aplikasi_klambi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiIQHe4lHVtsji1ASlCZWd79hcfYn_Alg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

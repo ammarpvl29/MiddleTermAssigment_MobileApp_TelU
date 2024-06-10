@@ -12,7 +12,9 @@ dependencies:
     sdk: flutter
   get: # replace 'version' with the version you want to use
   cupertino_icons: ^1.0.6
-  google_fonts: ^2.1.0
+  google_fonts: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_core: ^3.0.0
 
 dev_dependencies:
   flutter_test:

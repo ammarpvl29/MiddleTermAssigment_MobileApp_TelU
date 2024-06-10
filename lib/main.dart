@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'sign_up.dart';
 import 'sign_in.dart';
 import 'home_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
   runApp(const KlambiApp());
