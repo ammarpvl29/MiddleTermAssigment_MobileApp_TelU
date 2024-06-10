@@ -6,7 +6,7 @@ import 'package:aplikasi_klambi/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(KlambiApp());
+    await tester.pumpWidget(const KlambiApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
